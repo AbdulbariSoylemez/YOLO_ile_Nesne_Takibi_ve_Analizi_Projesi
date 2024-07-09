@@ -13,10 +13,10 @@ def find_cut(video_path, threshold=30.0, start = 0.0, end = 5.0):
     scene_manager.add_detector(
         ContentDetector(threshold=threshold))
 
-    # Improve processing speed by downscaling before processing.
+    
     video_manager.set_downscale_factor()
 
-    # Set start-end range
+
     fps = video_manager.get_framerate()
     startFrameTimeCode = FrameTimecode(timecode = start, fps=fps)
     endFrameTimeCode = FrameTimecode(timecode = end, fps=fps)
