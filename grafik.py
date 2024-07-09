@@ -23,7 +23,6 @@ def visualize_iou_data(file_path, output_folder):
     plt.savefig(output_file)
     
 
-# Example usage with output folder
 file_path = '/Users/abdulbarisoylemez/Documents/VisualCode/yolo-track/frame_iou.txt'
 output_folder = '/Users/abdulbarisoylemez/Documents/VisualCode/yolo-track/iouGrafik'
 visualize_iou_data(file_path, output_folder)
