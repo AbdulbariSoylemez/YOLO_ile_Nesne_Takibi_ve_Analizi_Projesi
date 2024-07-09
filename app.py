@@ -17,7 +17,7 @@ app = FastAPI()
 model_path = "/Users/abdulbarisoylemez/Documents/VisualCode/yolo-track/models/yolov8x.pt"
 tracker = ObjectTracker(model_path=model_path, threshold=0.8)
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO) 
 
 class TrackInfo(BaseModel):
     videoPath: str
@@ -33,7 +33,7 @@ class TrackInfo(BaseModel):
 
 
 @app.get("/api/status")
-async def segment_app(request: Request):
+async def segment_app(request: Request): 
     return {'status': "OK"}
 
 @app.post("/api/track_with_initial_yolo_check")
