@@ -35,3 +35,6 @@ curl -X POST http://0.0.0.0:6060/api/track_with_initial_yolo_check \
 **Sonuç:**
 
 Bu proje sayesinde, videolarda nesne takibi yapabilir, modelinizin performansını IoU değerleri ile analiz edebilir ve düşük performansa sahip kareleri otomatik olarak tespit edebilirsiniz. Bu bilgiler, modelinizi geliştirmeniz veya video analizi uygulamalarınızda daha iyi sonuçlar elde etmeniz için size yol gösterecektir.
+
+
+![ IoU tespitine Sahip Bir Kare](https://github.com/AbdulbariSoylemez/YOLO_ile_Nesne_Takibi_ve_Analizi_Projesi/blob/main/debug_frame_zero0.jpg)
