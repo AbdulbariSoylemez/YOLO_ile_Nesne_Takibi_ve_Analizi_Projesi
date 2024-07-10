@@ -38,3 +38,7 @@ Bu proje sayesinde, videolarda nesne takibi yapabilir, modelinizin performansın
 
 
 ![ IoU tespitine Sahip Bir Kare](https://github.com/AbdulbariSoylemez/YOLO_ile_Nesne_Takibi_ve_Analizi_Projesi/blob/main/debug_frame_zero0.jpg)
+
+![Video üzerinde test edilemsi](https://github.com/AbdulbariSoylemez/YOLO_ile_Nesne_Takibi_ve_Analizi_Projesi/blob/main/output_with_initial_zero.mp4)
+
+
